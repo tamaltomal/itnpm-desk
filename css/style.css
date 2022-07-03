@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: "roboto";
+    color: #535353;
+}
+
+header {
+    height: 10vh;
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.logo {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    text-align: center;
+    width: 320px;
+}
+
+.utilities {
+    display: flex;
+    flex: 6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.search input:focus {
+    outline: none;
+    border: 1px solid rgb(98, 176, 255);
+    box-shadow: 0px 0px 2px dodgerblue;
+}
+
+.profile {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    height: 85vh;
+    background: #f5f7fa;
+}
+
+.menu {
+    border-bottom-right-radius: 25px;
+    flex: 1;
+    padding: 25px 5px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul a li {
+    margin: 25px 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul a li img {
+    margin: 0px 10px 0px 0px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #535353;
+}
+
+.menu ul a li:hover {
+    background: #00b3d8;
+    color: whitesmoke;
+} 
+
+.container {
+    flex: 7;
+    padding: 15px 40px;
+    background: #f5f7fa;
+    border-top-left-radius: 25px;
+}
+
+.slogan {
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0px;
+}
+
+.slogan h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 32%;
+    height: 60vh;
+    background: #ffffff;
+    box-shadow: 3px 3px 15px lightgray;
+    padding: 0px 25px 0px 25px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.operation-card {
+    border-top: 12px solid #17c3a5;
+}
+
+.operation-card h3 {
+    color: #17c3a5;
+}
+
+.planning-card {
+    border-top: 12px solid #5096f7;
+}
+
+.planning-card h3 {
+    color: #5096f7;
+}
+
+.misc-card {
+    border-top: 12px solid #d289e2;
+}
+
+.misc-card h3 {
+    color: #d289e2;
+}
+
+.card h3 {
+    padding: 5px 3px;
+    border-bottom: 1px solid lightgray;
+}
+
+.task-list ul {
+    padding: 0px 20px;
+    height: 255px;
+    font-size: 15px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.task-list ul::-webkit-scrollbar {
+    background-color: lightgray;
+    width: 5px;
+    border-radius: 15px;
+}
+
+.task-list ul::-webkit-scrollbar-thumb {
+    background-color: #00b3d8;
+    border-radius: 15px;
+}
+
+.execution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-top: 1px solid lightgray;
+    font-size: 15px;
+}
+
+.execution span {
+    color: #ea5a92;
+    font-weight: bold;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    background: #f5f7fa;
+}
