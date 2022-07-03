@@ -93,7 +93,6 @@ main {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    border-right: 0.1px solid #00b3d8;
 }
 
 .menu ul a li img {
