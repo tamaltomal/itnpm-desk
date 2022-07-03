@@ -72,8 +72,8 @@ header {
 
 main {
     display: flex;
-    height: 85vh;
     background: #f5f7fa;
+    padding-bottom: 25px;
 }
 
 .menu {
@@ -212,7 +212,8 @@ main {
 }
 
 footer {
-    height: 5vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     background: #f5f7fa;
 }
