@@ -91,9 +91,9 @@ main {
 .menu ul a li {
     margin: 25px 0px;
     padding: 10px 20px;
-    border-radius: 5px;
     display: flex;
     align-items: center;
+    border-right: 0.1px solid #00b3d8;
 }
 
 .menu ul a li img {
@@ -106,6 +106,7 @@ main {
 }
 
 .menu ul a li:hover {
+    border-radius: 5px;
     background: #00b3d8;
     color: whitesmoke;
 } 
