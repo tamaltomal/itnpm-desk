@@ -79,7 +79,7 @@ main {
 .menu {
     border-bottom-right-radius: 25px;
     flex: 1;
-    padding: 25px 5px;
+    padding: 25px 0px;
     text-align: center;
     background: #ffffff;
 }
@@ -90,7 +90,7 @@ main {
 
 .menu ul a li {
     margin: 25px 0px;
-    padding: 10px 20px;
+    padding: 8px 15px;
     display: flex;
     align-items: center;
 }
@@ -105,9 +105,9 @@ main {
 }
 
 .menu ul a li:hover {
-    border-radius: 5px;
-    background: #00b3d8;
-    color: whitesmoke;
+    border: none;
+    background: #f5f7fa;
+    color: #5096f7;
 } 
 
 .container {
